@@ -1,0 +1,137 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin:0;
+}
+.Main{
+    width:860px;
+    display:flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    border: hidden;
+}
+.Add_block{
+    border-bottom: 5px solid;
+    height:135px;
+}
+.font{
+    border-bottom: 5px solid;
+    text-align: center;
+    background-color: aqua;
+}
+.task_dis{
+    width:100%;
+    margin: 0px;
+    padding:0px;
+    display:flex;
+    flex-direction: column; 
+    
+}
+
+li{
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    display: flex;
+    flex-direction:row;
+    height:40px;
+    cursor: pointer;
+    border: .05px solid aquamarine;
+}
+h4{
+    width:50%;
+    justify-content: flex-start;
+    text-align: center;
+    margin:auto;
+    word-wrap: break-word;
+    font-family: Lato, sans-serif;
+}
+h6{
+     margin:auto;
+     width:30%;
+     text-overflow: ellipsis;
+    white-space: nowrap;
+     overflow: hidden;
+     font-family: Lato, sans-serif;
+}
+button{
+    margin:0px;
+    align-items: stretch;
+    border: none;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+   text-decoration: none;
+   display: inline-block;
+}
+.task_block{
+    border-bottom: 5px solid;
+    overflow: scroll;
+    flex: 1;
+    justify-content: stretch;
+}
+.Descripton_block{
+    border-bottom: 5px solid;
+    height:200px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.description_dis{
+    width:100%;
+    margin: 0px;
+    padding:0px;
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+.task{
+    order:1;
+    width:100%;
+    border:1px solid aquamarine;
+    margin: auto;
+    height:40px;
+  
+}
+.dis{
+    order:2;
+    width:100%;
+    border:1px solid aquamarine;
+    margin: 0px;
+    min-height:40px;
+    
+}
+p{
+    margin: auto;
+    font-size: 20px;
+    padding:10px;
+    text-align: left;
+    word-wrap: break-word;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    
+
+}
+button hover{
+      background-color:aquamarine ;
+  }
+  li button:nth-child(odd) {
+    background-color: aquamarine;
+  }
+  li:nth-child(odd) {
+    background-color: aquamarine;
+  }
+  .description_dis:nth-child(odd) {
+    background-color: aquamarine;
+  }
+
