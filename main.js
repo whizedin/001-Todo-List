@@ -16,18 +16,15 @@ function showDescription(){
 
   var div1 = document.createElement('div');
   div1.className="task";
-  //var head = document.createElement('p');
-  //head.innerHTML='Task:';
+ 
 
   var div2 = document.createElement('div');
   div2.className="dis";
- // var head1 = document.createElement('p');
- // head1.innerHTML = 'Description:';
 
- // disp_task.appendChild(head);
+
   div1.appendChild(disp_task);
   
-  //head.appendChild(head1);
+
   div2.appendChild(disp_desp);
   display_description.appendChild(div1);
   display_description.appendChild(div2);
